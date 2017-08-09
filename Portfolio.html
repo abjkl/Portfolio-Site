@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gao Xinyi's Portfolio</title>
-    <link rel="stylesheet" media="(max-width:800px)" href="css/small.css">
-    <link rel="stylesheet" media="(min-width:801px)" href="css/big.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!--Logo and the basic information of Xinyi-->
@@ -23,10 +23,11 @@
     <main>
         <!--Photo of Xinyi-->
         <div class="photo">
-            <img alt="Big Pic" src="img/bigpic.png" class="photo-pic">
+            <img alt="Big Pic" src="img/bigpic.png" class="photo-pic" srcset="img/bigpic.png 1x, img/bigpic@2x.png 2x,
+            img/bigpic@3x.png 3x">
         </div>
         <!--Featured work of Xinyi as a product manager"-->
-        <section class="work-list">
+        <section>
             <h1>Featured Work</h1>
             <div class="work-list">
                 <figure class="work">

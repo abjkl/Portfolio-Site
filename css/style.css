@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Tzaristane Light';
+  src: url('css/font.otf');
+}
+
+@media screen and (min-width: 801px) {
+    .work-list { margin: 0;  display: inline-flex;  flex-wrap: wrap; }
+    .work { margin-right: 20px;  width: 30%; }
+}
+
+body {
+    font-family: Helvetica,Arial,Lucida Grande,sans-serif;
+    letter-spacing: 0.2em;
+    margin: 5%;
+    min-width: 300px;
+    max-width: 1800px;
+}
+
+/* Header */
+
+header {
+    height: 100px;
+    position: relative;
+}
+
+main {
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+
+.logo {
+    float: left;
+    margin: 10px 20px 0 0;
+}
+
+
+.information {
+    display: inline;
+    text-align: right;
+}
+
+
+.name {
+    font: 200 54px "Tzaristane Light";
+    color: #2d3c49;
+    margin-bottom: -5px;
+}
+
+.title {
+    font: normal 18px Helvetica,sans-serif;
+    color: #2d3c49;
+
+}
+
+hr {
+    height: 4px;
+    border: none;
+    border-top: 4px solid #7d97ad;
+    margin: 22px 0 25px 0;
+}
+
+p {
+    white-space: nowrap;
+    margin: 0;
+}
+
+/* Main */
+
+main {
+    margin-top: 35px;
+    text-align: center;
+}
+
+h1 {
+    font: 200 32px Helvetica,sans-serif;
+    color: #7d97ad;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font: 200 30px Helvetica,sans-serif;
+    color: #2d3c49;
+    margin: 5px 0 0 0;
+}
+
+a {
+    font-size: 14px;
+    color: #2d3c49;
+    text-decoration: none
+}
+
+a:hover {
+    color: #7d97ad;
+}
+
+a:visited {
+    color: #7d97ad;
+}
+
+.photo {
+    margin: 0;
+}
+
+.photo-pic {
+    width: 100%;
+}
+
+.work-pic {
+    width: 100%
+}
